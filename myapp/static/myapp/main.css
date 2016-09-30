@@ -31,3 +31,14 @@ footer p{
 form {
 	margin: 10px 0;
 }
+
+.errorlist {
+    list-style: none;
+    color: red;
+    padding: 0;
+}
+
+
+.errorlist li:before {
+    content: '*';
+}
